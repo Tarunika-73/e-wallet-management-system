@@ -1,24 +1,24 @@
-# Compiled class file
-*.class
+# Node (React frontend)
+/client/node_modules
+/client/build
 
-# Log file
+# Java (Spring Boot backend)
+/server/target
+/server/.classpath
+/server/.project
+/server/.settings
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+*.idea
+*.vscode
+*.iml
+
+# Logs
 *.log
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Environment variables
+.env
